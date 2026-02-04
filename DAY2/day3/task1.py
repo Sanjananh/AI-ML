@@ -1,0 +1,10 @@
+inventory=["apple","banana","orange","grape","watermelon"]
+print("present inventory:",inventory)
+inventory.append("kiwi")
+inventory.remove("banana")
+inventory.sort()
+inventory.extend(["mango","peach"])
+inventory.pop(2)
+count=len(inventory)
+print("final present inventory:",inventory)
+print("count of items:",count)
